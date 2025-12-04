@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './home/home';
 import About from './about/about';
@@ -13,7 +12,7 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/about" element={<About></About>}></Route>
-        <Route path="/contact" element={"This is Home Page"}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
       </Routes>
     </div>
   );
